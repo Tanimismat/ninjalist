@@ -3,6 +3,7 @@ import Image from "next/image";
 import Footer from "../comps/Footer";
 import Navbar from "../comps/Navebar";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 export default function Home() {
 	return (
@@ -25,6 +26,9 @@ export default function Home() {
 				saepe expedita totam vero dolore cupiditate ipsum nihil, architecto
 				velit enim eum! Earum eius iusto veniam.
 			</p>
+			<Link href="/ninjas">
+				<a>See all ninjas</a>
+			</Link>
 			<Footer></Footer>
 		</div>
 	);
