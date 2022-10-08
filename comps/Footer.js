@@ -2,9 +2,9 @@ const Footer = () => {
 	const year = new Date().getFullYear();
 
 	return (
-		<div>
+		<footer>
 			<p>Copyright {year} Ninja List</p>
-		</div>
+		</footer>
 	);
 };
 
