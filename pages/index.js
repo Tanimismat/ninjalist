@@ -1,10 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
+import Footer from "../comps/Footer";
+import Navbar from "../comps/Navebar";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
 	return (
 		<div>
+			<Navbar></Navbar>
 			<h1>Homepage</h1>
 			<p>
 				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi beatae
@@ -22,6 +25,7 @@ export default function Home() {
 				saepe expedita totam vero dolore cupiditate ipsum nihil, architecto
 				velit enim eum! Earum eius iusto veniam.
 			</p>
+			<Footer></Footer>
 		</div>
 	);
 }
