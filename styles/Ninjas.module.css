@@ -1,1 +1,12 @@
 /* selectors must be class selectors not element selector*/
+.single {
+	padding: 2px 16px;
+	background: #fff;
+	display: block;
+	margin: 20px 10px;
+	border-left: 8px solid #fff;
+}
+
+.single:hover {
+	border-left: 8px solid rgba(22, 88, 231, 0.672);
+}
